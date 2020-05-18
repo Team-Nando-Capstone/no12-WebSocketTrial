@@ -1,0 +1,308 @@
+// intilization
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../images/template.jpg) no-repeat top center;
+    line-height: 1.15;
+}
+header {
+    position: relative;
+    height: 1.5rem;
+    background: url(../images/header.png) no-repeat;
+    background-size: 100% 100%;
+    h1{
+        font-size: 0.5rem;
+        color: white;
+        text-align: center;
+        line-height: 1.4rem;
+    }
+    .showTime{
+        position: absolute;
+        right:0.125rem;
+        top:0;
+        line-height: 1.5rem;
+        color: rgba(255, 255, 255, 0.555);
+        font-size: 0.25rem;
+    }
+}
+
+// main box
+.mainbox {
+    display: flex;
+    min-width: 1024px;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 0.25rem 0.25rem 0;
+    .column {
+        flex: 2; // divided main box into 2 parts
+    }
+    .column:nth-child(1){
+        flex: 4; // for main box 1, give it 4 spaces
+    }
+    .panel {
+        position: relative;
+        height: 5.25rem;
+        border: 1px solid rgba(9, 8, 54, 0.212);
+        background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.788);
+        padding: 0 0.15rem 0.15rem 0.2rem;
+        margin-bottom: 0.15rem;
+        &::before{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid rgba(17, 6, 65, 1);
+            border-top: 2px solid rgba(17, 6, 65, 1);
+            content:"";
+        }
+        &::after{
+            position: absolute;
+            top:0;
+            right:0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid rgba(17, 6, 65, 1);
+            border-top: 2px solid rgba(17, 6, 65, 1);
+            content:"";
+        }
+        .panel-footer{
+            position: absolute;
+            bottom: 0;
+            left:0;
+            width:100%;
+            &::before{
+                position: absolute;
+                bottom:0;
+                right:0;
+                width: 10px;
+                height: 10px;
+                border-right: 2px solid rgba(17, 6, 65, 1);
+                border-bottom: 2px solid rgba(17, 6, 65, 1);
+                content:"";
+            }
+            &::after{
+                position: absolute;
+                bottom:0;
+                left:0;
+                width: 10px;
+                height: 10px;
+                border-left: 2px solid rgba(17, 6, 65, 1);
+                border-bottom: 2px solid rgba(17, 6, 65, 1);
+                content:"";
+            }
+        }
+        h2{
+            height: 0.3rem;
+            color:rgb(17, 6, 65, 1);
+            line-height: 0.5rem;
+            text-align: center;
+            font-size: 0.25rem;
+            font-weight: 800;
+        }
+    }
+
+    .Control{
+        position: relative;
+        height: 5.25rem;
+        border: 1px solid rgba(9, 8, 54, 0.212);
+        background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.788);
+        padding: 0 0.15rem 0.15rem 0.2rem;
+        margin-bottom: 0.15rem;
+        &::before{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid rgba(17, 6, 65, 1);
+            border-top: 2px solid rgba(17, 6, 65, 1);
+            content:"";
+        }
+        &::after{
+            position: absolute;
+            top:0;
+            right:0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid rgba(17, 6, 65, 1);
+            border-top: 2px solid rgba(17, 6, 65, 1);
+            content:"";
+        }
+        .panel-footer{
+            position: absolute;
+            bottom: 0;
+            left:0;
+            width:100%;
+            &::before{
+                position: absolute;
+                bottom:0;
+                right:0;
+                width: 10px;
+                height: 10px;
+                border-right: 2px solid rgba(17, 6, 65, 1);
+                border-bottom: 2px solid rgba(17, 6, 65, 1);
+                content:"";
+            }
+            &::after{
+                position: absolute;
+                bottom:0;
+                left:0;
+                width: 10px;
+                height: 10px;
+                border-left: 2px solid rgba(17, 6, 65, 1);
+                border-bottom: 2px solid rgba(17, 6, 65, 1);
+                content:"";
+            }
+        }
+        h2{
+            height: 0.3rem;
+            color:rgb(17, 6, 65, 1);
+            line-height: 0.5rem;
+            text-align: center;
+            font-size: 0.25rem;
+            font-weight: 800;
+        }
+    }
+
+    // .PQcurve{
+    //     position: relative;
+    //     height: 4.705rem;
+    //     border: 1px solid rgba(9, 8, 54, 0.212);
+    //     background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.788);
+    //     padding: 0 0.15rem 0.15rem 0.2rem;
+    //     margin-bottom: 0.15rem;
+    //     &::before{
+    //         position: absolute;
+    //         top:0;
+    //         left:0;
+    //         width: 10px;
+    //         height: 10px;
+    //         border-left: 2px solid rgba(17, 6, 65, 1);
+    //         border-top: 2px solid rgba(17, 6, 65, 1);
+    //         content:"";
+    //     }
+    //     &::after{
+    //         position: absolute;
+    //         top:0;
+    //         right:0;
+    //         width: 10px;
+    //         height: 10px;
+    //         border-right: 2px solid rgba(17, 6, 65, 1);
+    //         border-top: 2px solid rgba(17, 6, 65, 1);
+    //         content:"";
+    //     }
+    //     .panel-footer{
+    //         position: absolute;
+    //         bottom: 0;
+    //         left:0;
+    //         width:100%;
+    //         &::before{
+    //             position: absolute;
+    //             bottom:0;
+    //             right:0;
+    //             width: 10px;
+    //             height: 10px;
+    //             border-right: 2px solid rgba(17, 6, 65, 1);
+    //             border-bottom: 2px solid rgba(17, 6, 65, 1);
+    //             content:"";
+    //         }
+    //         &::after{
+    //             position: absolute;
+    //             bottom:0;
+    //             left:0;
+    //             width: 10px;
+    //             height: 10px;
+    //             border-left: 2px solid rgba(17, 6, 65, 1);
+    //             border-bottom: 2px solid rgba(17, 6, 65, 1);
+    //             content:"";
+    //         }
+    //     }
+    //     h2{
+    //         height: 0.3rem;
+    //         color:rgb(17, 6, 65, 1);
+    //         line-height: 0.5rem;
+    //         text-align: center;
+    //         font-size: 0.25rem;
+    //         font-weight: 800;
+    //         a{
+    //             color: #fff;
+    //             text-decoration: none;
+    //             margin: 0 0.125rem;
+    //         }
+    //     }
+    //     .T3DTopology{
+    //         height: 4.2rem;
+    //     }
+    // }
+
+
+
+    .Topology {
+        position: relative;
+        height: 10.65rem;
+        border: 1px solid rgba(9, 8, 54, 0.212);
+        background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.788);
+        padding: 0 0.15rem 0.15rem 0.2rem;
+        margin-bottom: 0.15rem;
+        margin-right: 0.15rem;
+        &::before{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid rgba(17, 6, 65, 1);
+            border-top: 2px solid rgba(17, 6, 65, 1);
+            content:"";
+        }
+        &::after{
+            position: absolute;
+            top:0;
+            right:0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid rgba(17, 6, 65, 1);
+            border-top: 2px solid rgba(17, 6, 65, 1);
+            content:"";
+        }
+        .Topology-footer{
+            position: absolute;
+            bottom: 0;
+            left:0;
+            width:100%;
+            &::before{
+                position: absolute;
+                bottom:0;
+                right:0;
+                width: 10px;
+                height: 10px;
+                border-right: 2px solid rgba(17, 6, 65, 1);
+                border-bottom: 2px solid rgba(17, 6, 65, 1);
+                content:"";
+            }
+            &::after{
+                position: absolute;
+                bottom:0;
+                left:0;
+                width: 10px;
+                height: 10px;
+                border-left: 2px solid rgba(17, 6, 65, 1);
+                border-bottom: 2px solid rgba(17, 6, 65, 1);
+                content:"";
+            }
+        }
+        h2{
+            height: 0.7rem;
+            color:rgb(17, 6, 65, 1);
+            line-height: 0.5rem;
+            text-align: center;
+            font-size: 0.25rem;
+            font-weight: 800;
+        }
+    }
+}
