@@ -13,7 +13,7 @@ Additionally, after following the instruction of Websocket, you need to run the 
 For the detailed tutorial instruction, you can check this website:
 https://www.runoob.com/html/html5-websocket.html
 
-And this s official site of websockect:
+And this is the official site of websockect:
 https://github.com/google/pywebsocket/wiki
 
 
