@@ -1,6 +1,4 @@
-  // 构造一个 msg 对象， 包含了服务器处理所需的数据
-
-  setInterval("WebSocketTest();",15*1000);//5 sec do once
+   setInterval("WebSocketTest();",5*1000);//5 sec do once
 
   function Resetmsg(){
     return msg = {
