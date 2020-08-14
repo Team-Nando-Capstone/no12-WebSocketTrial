@@ -2281,3 +2281,18 @@ function SVGColorChange() {
         }
     }
 }
+
+// Flashing points
+     function BusFlash(elementid){
+      var id = elementid.toString();
+      setTimeout(function(){document.getElementById(id).style.visibility = 'hidden'}, 500);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'visible'}, 1000);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'hidden'}, 1500);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'visible'}, 2000);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'hidden'}, 2500);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'visible'}, 3000);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'hidden'}, 3500);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'visible'}, 4000);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'hidden'}, 4500);
+      setTimeout(function(){document.getElementById(id).style.visibility = 'visible'}, 5000);
+   }
