@@ -1,6 +1,7 @@
 function LV_SVGColorChange() {
-    if (window.V_House1 == undefined) {
-        //?????
+    // here we choose to use a running ball to check if we are in page 1 or page 2.
+    if (!document.getElementById("line0R-L")) {
+        return; // break the function if we are not in the LV part
     }else{
         if (window.V_House1 < 250) {
             document.getElementById("House1").setAttribute("fill", "#37f800");
