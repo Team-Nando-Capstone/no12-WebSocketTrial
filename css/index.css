@@ -332,3 +332,10 @@ header .showTime {
   margin-top:0.6rem;
   margin-left: 4.8rem;
 }
+
+#Load719 {
+     fill:#474747;
+ }
+#Load719:hover {
+     fill: #E4933B;
+ }
