@@ -11,7 +11,7 @@ function AnimateControl() {
         /* Animation before data received
            All the animation will be invisible
            The relative code is be written in the index.html file!.*/
-       if (document.getElementById("Tr999").getAttribute("stroke") === "#8cdfc4" ){
+       if (typeof(window.U_Tr999)=="undefined"){
           document.getElementById("line1R-L").style.visibility = "hidden"; document.getElementById("line1L-R").style.visibility = "hidden";
           document.getElementById("line2R-L").style.visibility = "hidden"; document.getElementById("line2L-R").style.visibility = "hidden";
           document.getElementById("line3R-L").style.visibility = "hidden"; document.getElementById("line3L-R").style.visibility = "hidden";
@@ -1353,6 +1353,5 @@ function AnimateControl() {
        document.getElementById("line167L-R").style.visibility = "hidden";
        document.getElementById("line167R-L").style.visibility = "visible";
     }
-
 
 }
