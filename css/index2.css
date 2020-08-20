@@ -14,14 +14,14 @@ header {
   background-size: 100% 100%;
 }
 header h1 {
-  font-family:"courier-new", Monospace;
+  font-family:"verdana", Monospace;
   font-size: 0.5rem;
   color: white;
   text-align: center;
   line-height: 1.4rem;
 }
 header .showTime {
-  font-family:"courier-new", Monospace;
+  font-family:"Calibri";
   position: absolute;
   right: 0.125rem;
   top: 0;
@@ -173,12 +173,13 @@ header .showTime {
 }
 
 .Tr_Bus_title{
-  font-family:"courier-new", Monospace;
-  font-size: 0.29rem;
+  font-family:"Calibri";
+  font-weight:700;
+  font-size: 0.33rem;
   color:#110641;
 }
 .Tr_Bus_table{
-  font-family:"courier-new", Monospace;
+  font-family:"Calibri";
   border: 1px solid #110641;
   margin-top: 0.2rem;
   width: 100%;
@@ -188,12 +189,13 @@ header .showTime {
   text-align:center;
 }
 .Line_title{
-  font-family:"courier-new", Monospace;
-  font-size: 0.29rem;
+  font-family:"Calibri";
+  font-weight:700;
+  font-size: 0.33rem;
   color:#110641;
 }
 .Line_table {
-  font-family: "courier-new", Monospace;
+  font-family:"Calibri";
   border: 1px solid #110641;
   margin-top: 0.2rem;
   width: 100%;
@@ -218,7 +220,7 @@ header .showTime {
   border: 0.02rem solid #110641;
   color: #110641;
   text-align: center;
-  font-family: "courier-new",Monospace;
+  font-family:"Calibri";
   font-size: 0.3rem;
   padding: 0.05rem;
   width: 200px;
