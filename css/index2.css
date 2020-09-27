@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/template_dark.jpg) no-repeat top center;
+  line-height: 1.15;
+}
+header {
+  position: relative;
+  height: 1.5rem;
+  background: url(../images/header_dark.png) no-repeat;
+  background-size: 100% 100%;
+}
+header h1 {
+  font-family:"verdana", Monospace;
+  font-size: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4rem;
+}
+header .showTime {
+  font-family:"Calibri";
+  position: absolute;
+  right: 0.325rem;
+  top: 0;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.555);
+  font-size: 0.25rem;
+}
+.mainbox {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 300px;
+  padding: 0.25rem 0.25rem 0;
+}
+.mainbox .column {
+  flex: 2;
+}
+.mainbox .column:nth-child(1) {
+  flex: 4;
+}
+.mainbox .panel {
+  position: relative;
+  height: 5.25rem;
+  border: 1px solid rgba(9, 8, 54, 0.212);
+  background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.088);
+  padding: 0 0.15rem 0.15rem 0.2rem;
+  margin-bottom: 0.15rem;
+}
+.mainbox .panel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel .panel-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mainbox .panel .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel h2 {
+  font-family:"verdana", Monospace;
+  height: 0.5rem;
+  color: #1f7fb8;
+  line-height: 0.55rem;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: 800;
+}
+.mainbox .ThreePhaseHouse {
+  position: relative;
+  height: 5.25rem;
+  border: 1px solid rgba(9, 8, 54, 0.212);
+  background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.088);
+  padding: 0 0.15rem 0.15rem 0.2rem;
+  margin-bottom: 0.15rem;
+}
+.mainbox .ThreePhaseHouse::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .ThreePhaseHouse::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .ThreePhaseHouse .panel-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mainbox .ThreePhaseHouse .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .ThreePhaseHouse .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .ThreePhaseHouse h2 {
+  height: 0.5rem;
+  color: #1f7fb8;
+  line-height: 0.55rem;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: 800;
+}
+
+.LV_Button {
+  display:inline-block;
+  border-radius: 4px;
+  background-color: rgb(43, 43, 43);
+  border: 0.02rem solid #1f7fb8;
+  color: #1f7fb8;
+  text-align: center;
+  font-family:"Calibri";
+  font-size: 0.3rem;
+  padding: 0.05rem;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.LV_Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.LV_Button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.LV_Button:hover span {
+  padding-right: 25px;
+}
+
+.LV_Button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.Clear_Button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(43, 43, 43);
+  border: 0.02rem solid #1f7fb8;
+  color: #1f7fb8;
+  text-align: center;
+  font-family:"Calibri";
+  font-size: 0.3rem;
+  padding: 0.05rem;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.Clear_Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Clear_Button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  /*transition: 0.05s;*/
+}
+
+.Clear_Button:hover span {
+  padding-right: 25px;
+}
+
+.Clear_Button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.mainbox .Topology {
+  position: relative;
+  height: 10.65rem;
+  border: 1px solid rgba(9, 8, 54, 0.212);
+  background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.088);
+  padding: 0 0.15rem 0.15rem 0.2rem;
+  margin-bottom: 0.15rem;
+  margin-right: 0.15rem;
+}
+.mainbox .Topology::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology .Topology-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mainbox .Topology .Topology-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology .Topology-footer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology h2 {
+  font-family:"verdana", Monospace;
+  height: 0.7rem;
+  color: #1f7fb8;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: 800;
+}
+
+.Tr_Bus_title{
+  font-family:"Calibri";
+  font-weight:700;
+  font-size: 0.33rem;
+  color:#d1d1d1;
+}
+.Tr_Bus_table{
+  font-family:"Calibri";
+  border: 1px solid #474747;
+  margin-top: 0.2rem;
+  width: 100%;
+  font-size: 0.285rem;
+  text-align: left;
+  table-layout: fixed;
+  text-align:center;
+}
+.Line_title{
+  font-family:"Calibri";
+  font-weight:700;
+  font-size: 0.33rem;
+  color:#d1d1d1;
+}
+.Line_table {
+  font-family: "Calibri";
+  border: 1px solid #474747;
+  margin-top: 0.2rem;
+  width: 100%;
+  font-size: 0.285rem;
+  text-align: left;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.DetailedTable{
+  /*border: 1px solid #110641;*/
+  width: 90%;
+  margin-left: 0.35rem;
+}
+.TableButton{
+  text-align: right;
+}
+
+#Load719 {
+     fill:#474747;
+ }
+#Load719:hover {
+     fill: #1f7fb8;
+ }

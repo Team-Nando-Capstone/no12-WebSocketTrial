@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/template_dark.jpg) no-repeat top center;
+  line-height: 1.15;
+}
+header {
+  position: relative;
+  height: 1.5rem;
+  background: url(../images/header_dark.png) no-repeat;
+  background-size: 100% 100%;
+}
+header h1 {
+  font-family:"verdana", Monospace;
+  font-size: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4rem;
+}
+header .showTime {
+  font-family:"Calibri";
+  position: absolute;
+  right: 0.325rem;
+  top: 0;
+  line-height: 1.5rem;
+  color: rgb(172, 172, 172);
+  font-size: 0.25rem;
+}
+
+.mainbox {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 300px;
+  padding: 0.25rem 0.25rem 0;
+}
+.mainbox .column {
+  flex: 2;
+}
+.mainbox .column:nth-child(1) {
+  flex: 4;
+}
+.mainbox .panel {
+  position: relative;
+  height: 5.25rem;
+  border: 1px solid rgba(9, 8, 54, 0.212);
+  background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.088);
+  padding: 0 0.15rem 0.15rem 0.2rem;
+  margin-bottom: 0.15rem;
+}
+.mainbox .panel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel .panel-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mainbox .panel .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .panel h2 {
+  font-family:"verdana", Monospace;
+  height: 0.5rem;
+  color: #1f7fb8;
+  line-height: 0.55rem;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: 800;
+}
+.mainbox .LowVoltage {
+  position: relative;
+  height: 5.25rem;
+  border: 1px solid rgba(9, 8, 54, 0.212);
+  background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.088);
+  padding: 0 0.15rem 0.15rem 0.2rem;
+  margin-bottom: 0.15rem;
+}
+.mainbox .LowVoltage::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .LowVoltage::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .LowVoltage .panel-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mainbox .LowVoltage .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .LowVoltage .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .LowVoltage h2 {
+  height: 0.5rem;
+  color: #1f7fb8;
+  line-height: 0.55rem;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: 800;
+}
+
+.mainbox .LowVoltage .LV_Sign {
+  font-family:"verdana", Monospace;
+  font-size: 0.2rem;
+  text-align: center;
+}
+
+.LV_Button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(43, 43, 43);
+  border: 0.02rem solid #1f7fb8;
+  color: #1f7fb8;
+  text-align: center;
+  font-family:"Calibri";
+  font-size: 0.3rem;
+  padding: 0.05rem;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.LV_Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.LV_Button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.LV_Button:hover span {
+  padding-right: 25px;
+}
+
+.LV_Button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Clear_Button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(43, 43, 43);
+  border: 0.02rem solid #1f7fb8;
+  color: #1f7fb8;
+  text-align: center;
+  font-family:"Calibri";
+  font-size: 0.3rem;
+  padding: 0.05rem;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.Clear_Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Clear_Button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  /*transition: 0.05s;*/
+}
+
+.Clear_Button:hover span {
+  padding-right: 25px;
+}
+
+.Clear_Button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.mainbox .Topology {
+  position: relative;
+  height: 10.65rem;
+  border: 1px solid rgba(9, 8, 54, 0.212);
+  background: url(../images/line\(1\).png) rgba(207, 215, 224, 0.088);
+  padding: 0 0.15rem 0.15rem 0.2rem;
+  margin-bottom: 0.15rem;
+  margin-right: 0.15rem;
+}
+.mainbox .Topology::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-top: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology .Topology-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mainbox .Topology .Topology-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology .Topology-footer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #474747;
+  border-bottom: 2px solid #474747;
+  content: "";
+}
+.mainbox .Topology h2 {
+  font-family:"verdana", Monospace;
+  height: 0.7rem;
+  color: #1f7fb8;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: 800;
+}
+
+.Tr_Bus_title{
+  font-family:"Calibri";
+  font-weight:700;
+  font-size: 0.33rem;
+  color: #d2d2d2;
+}
+.Tr_Bus_table{
+  font-family:"Calibri";
+  border: 1px solid #474747;
+  margin-top: 0.2rem;
+  width: 100%;
+  font-size: 0.285rem;
+  text-align: left;
+  table-layout: fixed;
+  text-align:center;
+}
+.Line_title{
+  font-family:"Calibri";
+  font-weight:700;
+  font-size: 0.33rem;
+  color: #d2d2d2;
+}
+.Line_table {
+  font-family: "Calibri";
+  border: 1px solid #474747;
+  margin-top: 0.2rem;
+  width: 100%;
+  font-size: 0.285rem;
+  text-align: left;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.SVG{
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+.LV_Sign{
+  margin-top: 0.15rem;
+  margin-bottom: 0.2rem;
+  margin-left:0.2rem;
+  text-align: center;
+}
+.LV_Message{
+  font-family: "Calibri";
+  font-weight: 700;
+  font-size: 0.23rem;
+}
+.LV_SVG{
+  visibility: hidden;
+  width: 100%;
+  height: 147%;
+  position: relative;
+  left:0.2rem;
+  margin-top:0.1rem;
+}
+.LV_Button{
+  /*margin-top:0.2rem;*/
+  margin-left: 1rem;
+}
+
+
+#Load651:hover {fill: #1f7fb8;}  #Load652:hover {fill: #1f7fb8;}  #Load653:hover {fill: #1f7fb8;}  #Load654:hover {fill: #1f7fb8;} #Load655:hover {fill: #1f7fb8;} #Load656:hover {fill: #1f7fb8;}
+#Load657:hover {fill: #1f7fb8;}  #Load658:hover {fill: #1f7fb8;}  #Load659:hover {fill: #1f7fb8;}  #Load660:hover {fill: #1f7fb8;} #Load661:hover {fill: #1f7fb8;} #Load662:hover {fill: #1f7fb8;}
+#Load663:hover {fill: #1f7fb8;}  #Load664:hover {fill: #1f7fb8;}  #Load665:hover {fill: #1f7fb8;}  #Load666:hover {fill: #1f7fb8;} #Load667:hover {fill: #1f7fb8;} #Load668:hover {fill: #1f7fb8;}
+#Load669:hover {fill: #1f7fb8;}  #Load670:hover {fill: #1f7fb8;}  #Load671:hover {fill: #1f7fb8;}  #Load672:hover {fill: #1f7fb8;} #Load673:hover {fill: #1f7fb8;} #Load674:hover {fill: #1f7fb8;}
+#Load675:hover {fill: #1f7fb8;}  #Load676:hover {fill: #1f7fb8;}  #Load677:hover {fill: #1f7fb8;}  #Load678:hover {fill: #1f7fb8;} #Load679:hover {fill: #1f7fb8;} #Load680:hover {fill: #1f7fb8;}
+#Load681:hover {fill: #1f7fb8;}  #Load682:hover {fill: #1f7fb8;}  #Load683:hover {fill: #1f7fb8;}  #Load684:hover {fill: #1f7fb8;} #Load685:hover {fill: #1f7fb8;} #Load686:hover {fill: #1f7fb8;}
+#Load687:hover {fill: #1f7fb8;}  #Load688:hover {fill: #1f7fb8;}  #Load689:hover {fill: #1f7fb8;}  #Load690:hover {fill: #1f7fb8;} #Load691:hover {fill: #1f7fb8;} #Load692:hover {fill: #1f7fb8;}
+#Load693:hover {fill: #1f7fb8;}  #Load694:hover {fill: #1f7fb8;}  #Load695:hover {fill: #1f7fb8;}  #Load696:hover {fill: #1f7fb8;} #Load697:hover {fill: #1f7fb8;} #Load698:hover {fill: #1f7fb8;}
+#Load699:hover {fill: #1f7fb8;}  #Load700:hover {fill: #1f7fb8;}  #Load701:hover {fill: #1f7fb8;}  #Load702:hover {fill: #1f7fb8;} #Load703:hover {fill: #1f7fb8;} #Load704:hover {fill: #1f7fb8;}
+#Load705:hover {fill: #1f7fb8;}  #Load706:hover {fill: #1f7fb8;}  #Load707:hover {fill: #1f7fb8;}  #Load708:hover {fill: #1f7fb8;} #Load709:hover {fill: #1f7fb8;} #Load710:hover {fill: #1f7fb8;}
+#Load711:hover {fill: #1f7fb8;}  #Load712:hover {fill: #1f7fb8;}  #Load713:hover {fill: #1f7fb8;}  #Load714:hover {fill: #1f7fb8;} #Load715:hover {fill: #1f7fb8;} #Load716:hover {fill: #1f7fb8;}
+#Load717:hover {fill: #1f7fb8;}  #Load718:hover {fill: #1f7fb8;}  #Load719:hover {fill: #1f7fb8;}  #Load720:hover {fill: #1f7fb8;} #Load721:hover {fill: #1f7fb8;} #Load722:hover {fill: #1f7fb8;}
+#Load723:hover {fill: #1f7fb8;}  #Load724:hover {fill: #1f7fb8;}  #Load725:hover {fill: #1f7fb8;}  #Load726:hover {fill: #1f7fb8;} #Load727:hover {fill: #1f7fb8;} #Load728:hover {fill: #1f7fb8;}
+#Load729:hover {fill: #1f7fb8;}
+
+
+.LV_Topology{
+  align-items: center;
+}
