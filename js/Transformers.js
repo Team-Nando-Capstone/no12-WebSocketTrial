@@ -81,565 +81,116 @@ var U_Tr726; var P_Tr726; var Q_Tr726;
 var U_Tr727; var P_Tr727; var Q_Tr727;
 var U_Tr728; var P_Tr728; var Q_Tr728;
 var U_Tr729; var P_Tr729; var Q_Tr729;
+var flag; var ElementType;
 
-document.getElementById('Tr999').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr999)*100).toFixed(2)+' %';
-   document.getElementById('P_value').innerHTML=P_Tr999.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr999.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 999';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
+setInterval(function(){Tr_Bus_Table(flag)},1000);
 
-    });
-document.getElementById('Tr651').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr651)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr651.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr651.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 651';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr652').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr652)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr652.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr652.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 652';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr653').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr653)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr653.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr653.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 653';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr654').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr654)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr654.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr654.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 654';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr655').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr655)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr655.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr655.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 655';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr656').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr656)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr656.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr656.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 656';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr657').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr657)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr657.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr657.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 657';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr658').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr658)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr658.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr658.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 658';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr659').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr659)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr659.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr659.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 659';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr660').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr660)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr660.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr660.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 660';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr661').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr661)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr661.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr661.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 661';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr662').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr662)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr662.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr662.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 662';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr663').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr663)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr663.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr663.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 663';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr664').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr664)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr664.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr664.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 664';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr665').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr665)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr665.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr665.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 665';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr666').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr666)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr666.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr666.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 666';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr667').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr667)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr667.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr667.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 667';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr668').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr668)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr668.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr668.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 668';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr669').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr669)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr669.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr669.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 669';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr670').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr670)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr670.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr670.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 670';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr671').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr671)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr671.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr671.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 671';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr672').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr672)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr672.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr672.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 672';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr673').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr673)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr673.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr673.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 673';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr674').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr674)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr674.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr674.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 674';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr675').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr675)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr675.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr675.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 675';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr676').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr676)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr676.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr676.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 676';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr677').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr677)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr677.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr677.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 677';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr678').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr678)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr678.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr678.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 678';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr679').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr679)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr679.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr679.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 679';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr680').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr680)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr680.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr680.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 680';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr681').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr681)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr681.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr681.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 681';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr682').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr682)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr682.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr682.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 682';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr683').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr683)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr683.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr683.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 683';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr684').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr684)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr684.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr684.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 684';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr685').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr685)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr685.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr685.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 685';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr686').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr686)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr686.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr686.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 686';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr687').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr687)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr687.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr687.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 687';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr688').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr688)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr688.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr688.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 688';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr689').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr689)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr689.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr689.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 689';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr690').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr690)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr690.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr690.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 690';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr691').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr691)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr691.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr691.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 691';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr692').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr692)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr692.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr692.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 692';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr693').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr693)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr693.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr693.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 693';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr694').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr694)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr694.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr694.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 694';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr695').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr695)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr695.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr695.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 695';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr696').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr696)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr696.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr696.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 696';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr697').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr697)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr697.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr697.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 697';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr698').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr698)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr698.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr698.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 698';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr699').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr699)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr699.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr699.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 699';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr700').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr700)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr700.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr700.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 700';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr701').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr701)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr701.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr701.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 701';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr702').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr702)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr702.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr702.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 702';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr703').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr703)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr703.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr703.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 703';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr704').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr704)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr704.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr704.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 704';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr705').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr705)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr705.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr705.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 705';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr706').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr706)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr706.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr706.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 706';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr707').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr707)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr707.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr707.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 707';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr708').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr708)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr708.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr708.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 708';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr709').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr709)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr709.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr709.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 709';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr710').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr710)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr710.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr710.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 710';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr711').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr711)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr711.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr711.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 711';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr712').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr712)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr712.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr712.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 712';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr713').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr713)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr713.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr713.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 713';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr714').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr714)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr714.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr714.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 714';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr715').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr715)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr715.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr715.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 715';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr716').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr716)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr716.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr716.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 716';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr717').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr717)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr717.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr717.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 717';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr718').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr718)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr718.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr718.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 718';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr719').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr719)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr719.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr719.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 719';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr720').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr720)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr720.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr720.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 720';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr721').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr721)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr721.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr721.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 721';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr722').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr722)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr722.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr722.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 722';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr723').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr723)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr723.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr723.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 723';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr724').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr724)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr724.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr724.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 724';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr725').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr725)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr725.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr725.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 725';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr726').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr726)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr726.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr726.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 726';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr727').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr727)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr727.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr727.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 727';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr728').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr728)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr728.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr728.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 728';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
-document.getElementById('Tr729').addEventListener('click', function(){
-   document.getElementById('V_value').innerHTML=(parseFloat(U_Tr729)*100).toFixed(2) + ' %';
-   document.getElementById('P_value').innerHTML=P_Tr729.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Tr729.toFixed(2) + ' kVar';
-   document.getElementById('ElementID').innerHTML='Transformer 729';
-   document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
-    });
+Tr_Click('Tr999', 'Source', P_Tr999, Q_Tr999, U_Tr999);
+Tr_Click('Tr651', '651', P_Tr651, Q_Tr651, U_Tr651);
+Tr_Click('Tr652', '652', P_Tr652, Q_Tr652, U_Tr652);
+Tr_Click('Tr653', '653', P_Tr653, Q_Tr653, U_Tr653);
+Tr_Click('Tr654', '654', P_Tr654, Q_Tr654, U_Tr654);
+Tr_Click('Tr655', '655', P_Tr655, Q_Tr655, U_Tr655);
+Tr_Click('Tr656', '656', P_Tr656, Q_Tr656, U_Tr656);
+Tr_Click('Tr657', '657', P_Tr657, Q_Tr657, U_Tr657);
+Tr_Click('Tr658', '658', P_Tr658, Q_Tr658, U_Tr658);
+Tr_Click('Tr659', '659', P_Tr659, Q_Tr659, U_Tr659);
+Tr_Click('Tr660', '660', P_Tr660, Q_Tr660, U_Tr660);
+Tr_Click('Tr661', '661', P_Tr661, Q_Tr661, U_Tr661);
+Tr_Click('Tr662', '662', P_Tr662, Q_Tr662, U_Tr662);
+Tr_Click('Tr663', '663', P_Tr663, Q_Tr663, U_Tr663);
+Tr_Click('Tr664', '664', P_Tr664, Q_Tr664, U_Tr664);
+Tr_Click('Tr665', '665', P_Tr665, Q_Tr665, U_Tr665);
+Tr_Click('Tr666', '666', P_Tr666, Q_Tr666, U_Tr666);
+Tr_Click('Tr667', '667', P_Tr667, Q_Tr667, U_Tr667);
+Tr_Click('Tr668', '668', P_Tr668, Q_Tr668, U_Tr668);
+Tr_Click('Tr669', '669', P_Tr669, Q_Tr669, U_Tr669);
+Tr_Click('Tr670', '670', P_Tr670, Q_Tr670, U_Tr670);
+Tr_Click('Tr671', '671', P_Tr671, Q_Tr671, U_Tr671);
+Tr_Click('Tr672', '672', P_Tr672, Q_Tr672, U_Tr672);
+Tr_Click('Tr673', '673', P_Tr673, Q_Tr673, U_Tr673);
+Tr_Click('Tr674', '674', P_Tr674, Q_Tr674, U_Tr674);
+Tr_Click('Tr675', '675', P_Tr675, Q_Tr675, U_Tr675);
+Tr_Click('Tr676', '676', P_Tr676, Q_Tr676, U_Tr676);
+Tr_Click('Tr677', '677', P_Tr677, Q_Tr677, U_Tr677);
+Tr_Click('Tr678', '678', P_Tr678, Q_Tr678, U_Tr678);
+Tr_Click('Tr679', '679', P_Tr679, Q_Tr679, U_Tr679);
+Tr_Click('Tr680', '680', P_Tr680, Q_Tr680, U_Tr680);
+Tr_Click('Tr681', '681', P_Tr681, Q_Tr681, U_Tr681);
+Tr_Click('Tr682', '682', P_Tr682, Q_Tr682, U_Tr682);
+Tr_Click('Tr683', '683', P_Tr683, Q_Tr683, U_Tr683);
+Tr_Click('Tr684', '684', P_Tr684, Q_Tr684, U_Tr684);
+Tr_Click('Tr685', '685', P_Tr685, Q_Tr685, U_Tr685);
+Tr_Click('Tr686', '686', P_Tr686, Q_Tr686, U_Tr686);
+Tr_Click('Tr687', '687', P_Tr687, Q_Tr687, U_Tr687);
+Tr_Click('Tr688', '688', P_Tr688, Q_Tr688, U_Tr688);
+Tr_Click('Tr689', '689', P_Tr689, Q_Tr689, U_Tr689);
+Tr_Click('Tr690', '690', P_Tr690, Q_Tr690, U_Tr690);
+Tr_Click('Tr691', '691', P_Tr691, Q_Tr691, U_Tr691);
+Tr_Click('Tr692', '692', P_Tr692, Q_Tr692, U_Tr692);
+Tr_Click('Tr693', '693', P_Tr693, Q_Tr693, U_Tr693);
+Tr_Click('Tr694', '694', P_Tr694, Q_Tr694, U_Tr694);
+Tr_Click('Tr695', '695', P_Tr695, Q_Tr695, U_Tr695);
+Tr_Click('Tr696', '696', P_Tr696, Q_Tr696, U_Tr696);
+Tr_Click('Tr697', '697', P_Tr697, Q_Tr697, U_Tr697);
+Tr_Click('Tr698', '698', P_Tr698, Q_Tr698, U_Tr698);
+Tr_Click('Tr699', '699', P_Tr699, Q_Tr699, U_Tr699);
+Tr_Click('Tr700', '700', P_Tr700, Q_Tr700, U_Tr700);
+Tr_Click('Tr701', '701', P_Tr701, Q_Tr701, U_Tr701);
+Tr_Click('Tr702', '702', P_Tr702, Q_Tr702, U_Tr702);
+Tr_Click('Tr703', '703', P_Tr703, Q_Tr703, U_Tr703);
+Tr_Click('Tr704', '704', P_Tr704, Q_Tr704, U_Tr704);
+Tr_Click('Tr705', '705', P_Tr705, Q_Tr705, U_Tr705);
+Tr_Click('Tr706', '706', P_Tr706, Q_Tr706, U_Tr706);
+Tr_Click('Tr707', '707', P_Tr707, Q_Tr707, U_Tr707);
+Tr_Click('Tr708', '708', P_Tr708, Q_Tr708, U_Tr708);
+Tr_Click('Tr709', '709', P_Tr709, Q_Tr709, U_Tr709);
+Tr_Click('Tr710', '710', P_Tr710, Q_Tr710, U_Tr710);
+Tr_Click('Tr711', '711', P_Tr711, Q_Tr711, U_Tr711);
+Tr_Click('Tr712', '712', P_Tr712, Q_Tr712, U_Tr712);
+Tr_Click('Tr713', '713', P_Tr713, Q_Tr713, U_Tr713);
+Tr_Click('Tr714', '714', P_Tr714, Q_Tr714, U_Tr714);
+Tr_Click('Tr715', '715', P_Tr715, Q_Tr715, U_Tr715);
+Tr_Click('Tr716', '716', P_Tr716, Q_Tr716, U_Tr716);
+Tr_Click('Tr717', '717', P_Tr717, Q_Tr717, U_Tr717);
+Tr_Click('Tr718', '718', P_Tr718, Q_Tr718, U_Tr718);
+Tr_Click('Tr719', '719', P_Tr719, Q_Tr719, U_Tr719);
+Tr_Click('Tr720', '720', P_Tr720, Q_Tr720, U_Tr720);
+Tr_Click('Tr721', '721', P_Tr721, Q_Tr721, U_Tr721);
+Tr_Click('Tr722', '722', P_Tr722, Q_Tr722, U_Tr722);
+Tr_Click('Tr723', '723', P_Tr723, Q_Tr723, U_Tr723);
+Tr_Click('Tr724', '724', P_Tr724, Q_Tr724, U_Tr724);
+Tr_Click('Tr725', '725', P_Tr725, Q_Tr725, U_Tr725);
+Tr_Click('Tr726', '726', P_Tr726, Q_Tr726, U_Tr726);
+Tr_Click('Tr727', '727', P_Tr727, Q_Tr727, U_Tr727);
+Tr_Click('Tr728', '728', P_Tr728, Q_Tr728, U_Tr728);
+Tr_Click('Tr729', '729', P_Tr729, Q_Tr729, U_Tr729);
+
+
+function Tr_Bus_Table(flag){
+   if (flag !== undefined){
+   if (ElementType === "Tr") {
+      document.getElementById('V_value').innerHTML = (parseFloat(eval("U_" + flag)) * 100).toFixed(2) + ' %';
+      document.getElementById('P_value').innerHTML = eval("P_" + flag).toFixed(0) + ' kW';
+      document.getElementById('Q_value').innerHTML = eval("Q_" + flag).toFixed(2) + ' kvar';
+   }else if (ElementType === "Bus"){
+      document.getElementById('V_value').innerHTML = eval("V_" + flag).toFixed(2) + ' p.u.';
+      document.getElementById('P_value').innerHTML = eval("P_" + flag).toFixed(0) + ' kW';
+      document.getElementById('Q_value').innerHTML = eval("Q_" + flag).toFixed(2) + ' kvar';
+   }}
+}
+function Tr_Click(elementid,elementnum,P,Q,U){
+   let id = elementid.toString();
+   if(id !== undefined) {
+      document.getElementById(id).addEventListener('click', function () {
+         document.getElementById('V_value').innerHTML = (parseFloat(U) * 100).toFixed(2) + ' %';
+         document.getElementById('P_value').innerHTML = parseFloat(P).toFixed(0) + ' kW';
+         document.getElementById('Q_value').innerHTML = parseFloat(Q).toFixed(2) + ' kvar';
+         if (elementnum === "Source"){document.getElementById('ElementID').innerHTML = elementnum;}
+         else{document.getElementById('ElementID').innerHTML = 'Transformer ' + elementnum;}
+         document.getElementById('SwitchableU_V').innerHTML = 'Utilization';
+         flag = id;
+         ElementType = "Tr";
+      });
+   }
+}

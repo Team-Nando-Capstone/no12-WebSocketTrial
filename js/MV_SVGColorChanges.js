@@ -1,6 +1,7 @@
 function MV_SVGColorChange() {
     if (!document.getElementById("Tr999")) {
         // check whether in LV part or in MV part
+        return;
     }
     else {
 // Transformers
@@ -178,173 +179,173 @@ function MV_SVGColorChange() {
 
 
 // Lines
-        LineAnimation(window.U_Line1,'line1');
-        LineAnimation(window.U_Line2,'line2');
-        LineAnimation(window.U_Line3,'line3');
-        LineAnimation(window.U_Line4,'line4');
-        LineAnimation(window.U_Line5,'line5');
-        LineAnimation(window.U_Line6,'line6');
-        LineAnimation(window.U_Line7,'line7');
-        LineAnimation(window.U_Line8,'line8');
-        LineAnimation(window.U_Line9,'line9');
-        LineAnimation(window.U_Line10,'line10');
-        LineAnimation(window.U_Line11,'line11');
-        LineAnimation(window.U_Line12,'line12');
-        LineAnimation(window.U_Line13,'line13');
-        LineAnimation(window.U_Line14,'line14');
-        LineAnimation(window.U_Line15,'line15');
-        LineAnimation(window.U_Line16,'line16');
-        LineAnimation(window.U_Line17,'line17');
-        LineAnimation(window.U_Line18,'line18');
-        LineAnimation(window.U_Line19,'line19');
-        LineAnimation(window.U_Line20,'line20');
-        LineAnimation(window.U_Line21,'line21');
-        LineAnimation(window.U_Line22,'line22');
-        LineAnimation(window.U_Line23,'line23');
-        LineAnimation(window.U_Line24,'line24');
-        LineAnimation(window.U_Line25,'line25');
-        LineAnimation(window.U_Line26,'line26');
-        LineAnimation(window.U_Line27,'line27');
-        LineAnimation(window.U_Line28,'line28');
-        LineAnimation(window.U_Line29,'line29');
-        LineAnimation(window.U_Line30,'line30');
-        LineAnimation(window.U_Line31,'line31');
-        LineAnimation(window.U_Line32,'line32');
-        LineAnimation(window.U_Line33,'line33');
-        LineAnimation(window.U_Line34,'line34');
-        LineAnimation(window.U_Line35,'line35');
-        LineAnimation(window.U_Line36,'line36');
-        LineAnimation(window.U_Line37,'line37');
-        LineAnimation(window.U_Line38,'line38');
-        LineAnimation(window.U_Line39,'line39');
-        LineAnimation(window.U_Line40,'line40');
-        LineAnimation(window.U_Line41,'line41');
-        LineAnimation(window.U_Line42,'line42');
-        LineAnimation(window.U_Line43,'line43');
-        LineAnimation(window.U_Line44,'line44');
-        LineAnimation(window.U_Line45,'line45');
-        LineAnimation(window.U_Line46,'line46');
-        LineAnimation(window.U_Line47,'line47');
-        LineAnimation(window.U_Line48,'line48');
-        LineAnimation(window.U_Line49,'line49');
-        LineAnimation(window.U_Line50,'line50');
-        LineAnimation(window.U_Line51,'line51');
-        LineAnimation(window.U_Line52,'line52');
-        LineAnimation(window.U_Line53,'line53');
-        LineAnimation(window.U_Line54,'line54');
-        LineAnimation(window.U_Line55,'line55');
-        LineAnimation(window.U_Line56,'line56');
-        LineAnimation(window.U_Line57,'line57');
-        LineAnimation(window.U_Line58,'line58');
-        LineAnimation(window.U_Line59,'line59');
-        LineAnimation(window.U_Line60,'line60');
-        LineAnimation(window.U_Line61,'line61');
-        LineAnimation(window.U_Line62,'line62');
-        LineAnimation(window.U_Line63,'line63');
-        LineAnimation(window.U_Line64,'line64');
-        LineAnimation(window.U_Line65,'line65');
-        LineAnimation(window.U_Line66,'line66');
-        LineAnimation(window.U_Line67,'line67');
-        LineAnimation(window.U_Line68,'line68');
-        LineAnimation(window.U_Line69,'line69');
-        LineAnimation(window.U_Line70,'line70');
-        LineAnimation(window.U_Line71,'line71');
-        LineAnimation(window.U_Line72,'line72');
-        LineAnimation(window.U_Line73,'line73');
-        LineAnimation(window.U_Line74,'line74');
-        LineAnimation(window.U_Line75,'line75');
-        LineAnimation(window.U_Line76,'line76');
-        LineAnimation(window.U_Line77,'line77');
-        LineAnimation(window.U_Line78,'line78');
-        LineAnimation(window.U_Line79,'line79');
-        LineAnimation(window.U_Line80,'line80');
-        LineAnimation(window.U_Line81,'line81');
-        LineAnimation(window.U_Line82,'line82');
-        LineAnimation(window.U_Line83,'line83');
-        LineAnimation(window.U_Line84,'line84');
-        LineAnimation(window.U_Line85,'line85');
-        LineAnimation(window.U_Line86,'line86');
-        LineAnimation(window.U_Line87,'line87');
-        LineAnimation(window.U_Line88,'line88');
-        LineAnimation(window.U_Line89,'line89');
-        LineAnimation(window.U_Line90,'line90');
-        LineAnimation(window.U_Line91,'line91');
-        LineAnimation(window.U_Line92,'line92');
-        LineAnimation(window.U_Line93,'line93');
-        LineAnimation(window.U_Line94,'line94');
-        LineAnimation(window.U_Line95,'line95');
-        LineAnimation(window.U_Line96,'line96');
-        LineAnimation(window.U_Line97,'line97');
-        LineAnimation(window.U_Line98,'line98');
-        LineAnimation(window.U_Line99,'line99');
-        LineAnimation(window.U_Line100,'line100');
-        LineAnimation(window.U_Line101,'line101');
-        LineAnimation(window.U_Line102,'line102');
-        LineAnimation(window.U_Line103,'line103');
-        LineAnimation(window.U_Line104,'line104');
-        LineAnimation(window.U_Line105,'line105');
-        LineAnimation(window.U_Line106,'line106');
-        LineAnimation(window.U_Line107,'line107');
-        LineAnimation(window.U_Line108,'line108');
-        LineAnimation(window.U_Line109,'line109');
-        LineAnimation(window.U_Line110,'line110');
-        LineAnimation(window.U_Line111,'line111');
-        LineAnimation(window.U_Line112,'line112');
-        LineAnimation(window.U_Line113,'line113');
-        LineAnimation(window.U_Line114,'line114');
-        LineAnimation(window.U_Line115,'line115');
-        LineAnimation(window.U_Line116,'line116');
-        LineAnimation(window.U_Line117,'line117');
-        LineAnimation(window.U_Line118,'line118');
-        LineAnimation(window.U_Line119,'line119');
-        LineAnimation(window.U_Line120,'line120');
-        LineAnimation(window.U_Line121,'line121');
-        LineAnimation(window.U_Line122,'line122');
-        LineAnimation(window.U_Line123,'line123');
-        LineAnimation(window.U_Line124,'line124');
-        LineAnimation(window.U_Line125,'line125');
-        LineAnimation(window.U_Line126,'line126');
-        LineAnimation(window.U_Line127,'line127');
-        LineAnimation(window.U_Line128,'line128');
-        LineAnimation(window.U_Line129,'line129');
-        LineAnimation(window.U_Line130,'line130');
-        LineAnimation(window.U_Line131,'line131');
-        LineAnimation(window.U_Line132,'line132');
-        LineAnimation(window.U_Line133,'line133');
-        LineAnimation(window.U_Line134,'line134');
-        LineAnimation(window.U_Line135,'line135');
-        LineAnimation(window.U_Line136,'line136');
-        LineAnimation(window.U_Line137,'line137');
-        LineAnimation(window.U_Line138,'line138');
-        LineAnimation(window.U_Line139,'line139');
-        LineAnimation(window.U_Line140,'line140');
-        LineAnimation(window.U_Line141,'line141');
-        LineAnimation(window.U_Line142,'line142');
-        LineAnimation(window.U_Line143,'line143');
-        LineAnimation(window.U_Line144,'line144');
-        LineAnimation(window.U_Line145,'line145');
-        LineAnimation(window.U_Line146,'line146');
-        LineAnimation(window.U_Line147,'line147');
-        LineAnimation(window.U_Line148,'line148');
-        LineAnimation(window.U_Line149,'line149');
-        LineAnimation(window.U_Line150,'line150');
-        LineAnimation(window.U_Line151,'line151');
-        LineAnimation(window.U_Line152,'line152');
-        LineAnimation(window.U_Line153,'line153');
-        LineAnimation(window.U_Line154,'line154');
-        LineAnimation(window.U_Line155,'line155');
-        LineAnimation(window.U_Line156,'line156');
-        LineAnimation(window.U_Line157,'line157');
-        LineAnimation(window.U_Line158,'line158');
-        LineAnimation(window.U_Line159,'line159');
-        LineAnimation(window.U_Line160,'line160');
-        LineAnimation(window.U_Line161,'line161');
-        LineAnimation(window.U_Line162,'line162');
-        LineAnimation(window.U_Line163,'line163');
-        LineAnimation(window.U_Line164,'line164');
-        LineAnimation(window.U_Line165,'line165');
-        LineAnimation(window.U_Line166,'line166');
-        LineAnimation(window.U_Line167,'line167');
+LineAnimation(window.U_Line1, window.P_Line1, 'Line1');
+LineAnimation(window.U_Line2, window.P_Line2, 'Line2');
+LineAnimation(window.U_Line3, window.P_Line3, 'Line3');
+LineAnimation(window.U_Line4, window.P_Line4, 'Line4');
+LineAnimation(window.U_Line5, window.P_Line5, 'Line5');
+LineAnimation(window.U_Line6, window.P_Line6, 'Line6');
+LineAnimation(window.U_Line7, window.P_Line7, 'Line7');
+LineAnimation(window.U_Line8, window.P_Line8, 'Line8');
+LineAnimation(window.U_Line9, window.P_Line9, 'Line9');
+LineAnimation(window.U_Line10, window.P_Line10, 'Line10');
+LineAnimation(window.U_Line11, window.P_Line11, 'Line11');
+LineAnimation(window.U_Line12, window.P_Line12, 'Line12');
+LineAnimation(window.U_Line13, window.P_Line13, 'Line13');
+LineAnimation(window.U_Line14, window.P_Line14, 'Line14');
+LineAnimation(window.U_Line15, window.P_Line15, 'Line15');
+LineAnimation(window.U_Line16, window.P_Line16, 'Line16');
+LineAnimation(window.U_Line17, window.P_Line17, 'Line17');
+LineAnimation(window.U_Line18, window.P_Line18, 'Line18');
+LineAnimation(window.U_Line19, window.P_Line19, 'Line19');
+LineAnimation(window.U_Line20, window.P_Line20, 'Line20');
+LineAnimation(window.U_Line21, window.P_Line21, 'Line21');
+LineAnimation(window.U_Line22, window.P_Line22, 'Line22');
+LineAnimation(window.U_Line23, window.P_Line23, 'Line23');
+LineAnimation(window.U_Line24, window.P_Line24, 'Line24');
+LineAnimation(window.U_Line25, window.P_Line25, 'Line25');
+LineAnimation(window.U_Line26, window.P_Line26, 'Line26');
+LineAnimation(window.U_Line27, window.P_Line27, 'Line27');
+LineAnimation(window.U_Line28, window.P_Line28, 'Line28');
+LineAnimation(window.U_Line29, window.P_Line29, 'Line29');
+LineAnimation(window.U_Line30, window.P_Line30, 'Line30');
+LineAnimation(window.U_Line31, window.P_Line31, 'Line31');
+LineAnimation(window.U_Line32, window.P_Line32, 'Line32');
+LineAnimation(window.U_Line33, window.P_Line33, 'Line33');
+LineAnimation(window.U_Line34, window.P_Line34, 'Line34');
+LineAnimation(window.U_Line35, window.P_Line35, 'Line35');
+LineAnimation(window.U_Line36, window.P_Line36, 'Line36');
+LineAnimation(window.U_Line37, window.P_Line37, 'Line37');
+LineAnimation(window.U_Line38, window.P_Line38, 'Line38');
+LineAnimation(window.U_Line39, window.P_Line39, 'Line39');
+LineAnimation(window.U_Line40, window.P_Line40, 'Line40');
+LineAnimation(window.U_Line41, window.P_Line41, 'Line41');
+LineAnimation(window.U_Line42, window.P_Line42, 'Line42');
+LineAnimation(window.U_Line43, window.P_Line43, 'Line43');
+LineAnimation(window.U_Line44, window.P_Line44, 'Line44');
+LineAnimation(window.U_Line45, window.P_Line45, 'Line45');
+LineAnimation(window.U_Line46, window.P_Line46, 'Line46');
+LineAnimation(window.U_Line47, window.P_Line47, 'Line47');
+LineAnimation(window.U_Line48, window.P_Line48, 'Line48');
+LineAnimation(window.U_Line49, window.P_Line49, 'Line49');
+LineAnimation(window.U_Line50, window.P_Line50, 'Line50');
+LineAnimation(window.U_Line51, window.P_Line51, 'Line51');
+LineAnimation(window.U_Line52, window.P_Line52, 'Line52');
+LineAnimation(window.U_Line53, window.P_Line53, 'Line53');
+LineAnimation(window.U_Line54, window.P_Line54, 'Line54');
+LineAnimation(window.U_Line55, window.P_Line55, 'Line55');
+LineAnimation(window.U_Line56, window.P_Line56, 'Line56');
+LineAnimation(window.U_Line57, window.P_Line57, 'Line57');
+LineAnimation(window.U_Line58, window.P_Line58, 'Line58');
+LineAnimation(window.U_Line59, window.P_Line59, 'Line59');
+LineAnimation(window.U_Line60, window.P_Line60, 'Line60');
+LineAnimation(window.U_Line61, window.P_Line61, 'Line61');
+LineAnimation(window.U_Line62, window.P_Line62, 'Line62');
+LineAnimation(window.U_Line63, window.P_Line63, 'Line63');
+LineAnimation(window.U_Line64, window.P_Line64, 'Line64');
+LineAnimation(window.U_Line65, window.P_Line65, 'Line65');
+LineAnimation(window.U_Line66, window.P_Line66, 'Line66');
+LineAnimation(window.U_Line67, window.P_Line67, 'Line67');
+LineAnimation(window.U_Line68, window.P_Line68, 'Line68');
+LineAnimation(window.U_Line69, window.P_Line69, 'Line69');
+LineAnimation(window.U_Line70, window.P_Line70, 'Line70');
+LineAnimation(window.U_Line71, window.P_Line71, 'Line71');
+LineAnimation(window.U_Line72, window.P_Line72, 'Line72');
+LineAnimation(window.U_Line73, window.P_Line73, 'Line73');
+LineAnimation(window.U_Line74, window.P_Line74, 'Line74');
+LineAnimation(window.U_Line75, window.P_Line75, 'Line75');
+LineAnimation(window.U_Line76, window.P_Line76, 'Line76');
+LineAnimation(window.U_Line77, window.P_Line77, 'Line77');
+LineAnimation(window.U_Line78, window.P_Line78, 'Line78');
+LineAnimation(window.U_Line79, window.P_Line79, 'Line79');
+LineAnimation(window.U_Line80, window.P_Line80, 'Line80');
+LineAnimation(window.U_Line81, window.P_Line81, 'Line81');
+LineAnimation(window.U_Line82, window.P_Line82, 'Line82');
+LineAnimation(window.U_Line83, window.P_Line83, 'Line83');
+LineAnimation(window.U_Line84, window.P_Line84, 'Line84');
+LineAnimation(window.U_Line85, window.P_Line85, 'Line85');
+LineAnimation(window.U_Line86, window.P_Line86, 'Line86');
+LineAnimation(window.U_Line87, window.P_Line87, 'Line87');
+LineAnimation(window.U_Line88, window.P_Line88, 'Line88');
+LineAnimation(window.U_Line89, window.P_Line89, 'Line89');
+LineAnimation(window.U_Line90, window.P_Line90, 'Line90');
+LineAnimation(window.U_Line91, window.P_Line91, 'Line91');
+LineAnimation(window.U_Line92, window.P_Line92, 'Line92');
+LineAnimation(window.U_Line93, window.P_Line93, 'Line93');
+LineAnimation(window.U_Line94, window.P_Line94, 'Line94');
+LineAnimation(window.U_Line95, window.P_Line95, 'Line95');
+LineAnimation(window.U_Line96, window.P_Line96, 'Line96');
+LineAnimation(window.U_Line97, window.P_Line97, 'Line97');
+LineAnimation(window.U_Line98, window.P_Line98, 'Line98');
+LineAnimation(window.U_Line99, window.P_Line99, 'Line99');
+LineAnimation(window.U_Line100, window.P_Line100, 'Line100');
+LineAnimation(window.U_Line101, window.P_Line101, 'Line101');
+LineAnimation(window.U_Line102, window.P_Line102, 'Line102');
+LineAnimation(window.U_Line103, window.P_Line103, 'Line103');
+LineAnimation(window.U_Line104, window.P_Line104, 'Line104');
+LineAnimation(window.U_Line105, window.P_Line105, 'Line105');
+LineAnimation(window.U_Line106, window.P_Line106, 'Line106');
+LineAnimation(window.U_Line107, window.P_Line107, 'Line107');
+LineAnimation(window.U_Line108, window.P_Line108, 'Line108');
+LineAnimation(window.U_Line109, window.P_Line109, 'Line109');
+LineAnimation(window.U_Line110, window.P_Line110, 'Line110');
+LineAnimation(window.U_Line111, window.P_Line111, 'Line111');
+LineAnimation(window.U_Line112, window.P_Line112, 'Line112');
+LineAnimation(window.U_Line113, window.P_Line113, 'Line113');
+LineAnimation(window.U_Line114, window.P_Line114, 'Line114');
+LineAnimation(window.U_Line115, window.P_Line115, 'Line115');
+LineAnimation(window.U_Line116, window.P_Line116, 'Line116');
+LineAnimation(window.U_Line117, window.P_Line117, 'Line117');
+LineAnimation(window.U_Line118, window.P_Line118, 'Line118');
+LineAnimation(window.U_Line119, window.P_Line119, 'Line119');
+LineAnimation(window.U_Line120, window.P_Line120, 'Line120');
+LineAnimation(window.U_Line121, window.P_Line121, 'Line121');
+LineAnimation(window.U_Line122, window.P_Line122, 'Line122');
+LineAnimation(window.U_Line123, window.P_Line123, 'Line123');
+LineAnimation(window.U_Line124, window.P_Line124, 'Line124');
+LineAnimation(window.U_Line125, window.P_Line125, 'Line125');
+LineAnimation(window.U_Line126, window.P_Line126, 'Line126');
+LineAnimation(window.U_Line127, window.P_Line127, 'Line127');
+LineAnimation(window.U_Line128, window.P_Line128, 'Line128');
+LineAnimation(window.U_Line129, window.P_Line129, 'Line129');
+LineAnimation(window.U_Line130, window.P_Line130, 'Line130');
+LineAnimation(window.U_Line131, window.P_Line131, 'Line131');
+LineAnimation(window.U_Line132, window.P_Line132, 'Line132');
+LineAnimation(window.U_Line133, window.P_Line133, 'Line133');
+LineAnimation(window.U_Line134, window.P_Line134, 'Line134');
+LineAnimation(window.U_Line135, window.P_Line135, 'Line135');
+LineAnimation(window.U_Line136, window.P_Line136, 'Line136');
+LineAnimation(window.U_Line137, window.P_Line137, 'Line137');
+LineAnimation(window.U_Line138, window.P_Line138, 'Line138');
+LineAnimation(window.U_Line139, window.P_Line139, 'Line139');
+LineAnimation(window.U_Line140, window.P_Line140, 'Line140');
+LineAnimation(window.U_Line141, window.P_Line141, 'Line141');
+LineAnimation(window.U_Line142, window.P_Line142, 'Line142');
+LineAnimation(window.U_Line143, window.P_Line143, 'Line143');
+LineAnimation(window.U_Line144, window.P_Line144, 'Line144');
+LineAnimation(window.U_Line145, window.P_Line145, 'Line145');
+LineAnimation(window.U_Line146, window.P_Line146, 'Line146');
+LineAnimation(window.U_Line147, window.P_Line147, 'Line147');
+LineAnimation(window.U_Line148, window.P_Line148, 'Line148');
+LineAnimation(window.U_Line149, window.P_Line149, 'Line149');
+LineAnimation(window.U_Line150, window.P_Line150, 'Line150');
+LineAnimation(window.U_Line151, window.P_Line151, 'Line151');
+LineAnimation(window.U_Line152, window.P_Line152, 'Line152');
+LineAnimation(window.U_Line153, window.P_Line153, 'Line153');
+LineAnimation(window.U_Line154, window.P_Line154, 'Line154');
+LineAnimation(window.U_Line155, window.P_Line155, 'Line155');
+LineAnimation(window.U_Line156, window.P_Line156, 'Line156');
+LineAnimation(window.U_Line157, window.P_Line157, 'Line157');
+LineAnimation(window.U_Line158, window.P_Line158, 'Line158');
+LineAnimation(window.U_Line159, window.P_Line159, 'Line159');
+LineAnimation(window.U_Line160, window.P_Line160, 'Line160');
+LineAnimation(window.U_Line161, window.P_Line161, 'Line161');
+LineAnimation(window.U_Line162, window.P_Line162, 'Line162');
+LineAnimation(window.U_Line163, window.P_Line163, 'Line163');
+LineAnimation(window.U_Line164, window.P_Line164, 'Line164');
+LineAnimation(window.U_Line165, window.P_Line165, 'Line165');
+LineAnimation(window.U_Line166, window.P_Line166, 'Line166');
+LineAnimation(window.U_Line167, window.P_Line167, 'Line167');
     }
 }
 
@@ -371,17 +372,17 @@ function MV_SVGColorChange() {
             BusFlash(id);
         } else if (Bus_VValue < 0.88) {
             document.getElementById(id).setAttribute("fill", "#009cdb");
-        } else if (Bus_VValue < 0.90) {
+        } else if (Bus_VValue < 0.92) {
             document.getElementById(id).setAttribute("fill", "#02cb84");
-        } else if (Bus_VValue < 0.94) {
+        } else if (Bus_VValue < 0.96) {
             document.getElementById(id).setAttribute("fill", "#00c636");
         } else if (Bus_VValue < 1) {
             document.getElementById(id).setAttribute("fill", "#60b600");
         } else if (Bus_VValue < 1.04) {
             document.getElementById(id).setAttribute("fill", "#bbdf00");
-        } else if (Bus_VValue < 1.06) {
-            document.getElementById(id).setAttribute("fill", "#ff9f00");
         } else if (Bus_VValue < 1.08) {
+            document.getElementById(id).setAttribute("fill", "#ff9f00");
+        } else if (Bus_VValue < 1.12) {
             document.getElementById(id).setAttribute("fill", "#fd5700");
         } else {
             document.getElementById(id).setAttribute("fill", "#ff2501");
@@ -416,33 +417,57 @@ function MV_SVGColorChange() {
         } else if (Tr_Uvalue < 0.9) {
             document.getElementById(id).setAttribute('stroke', '#fd5700');
         } else {
-            document.getElementById('Tr999').setAttribute('stroke', '#ff2501');
+            document.getElementById(id).setAttribute('stroke', '#ff2501');
         }
     }
 
 // Line animation
-    function LineAnimation(Line_Uvalue, elementid){
-    var id = elementid.toString();
+    function LineAnimation(Line_Uvalue, Line_Pvalue, elementid){
+    let id = elementid.toString();
+    let P = Math.abs(Line_Pvalue);
+    let strokewidth = 1/900*P+(3/8);
+    strokewidth = strokewidth.toString();
     // stroke-width change
-        if (Line_Uvalue <= 0.5){
+        if (P <= 100){
             document.getElementById(id).setAttribute('stroke-width', '0.3');
-        } else if (Line_Uvalue >=1.2){
-            document.getElementById(id).setAttribute('stroke-width', '1.2');
+        } else if (P >=900){
+            document.getElementById(id).setAttribute('stroke-width', '1.5');
         } else{
-            document.getElementById(id).setAttribute('stroke-width',Line_Uvalue);
+            document.getElementById(id).setAttribute('stroke-width',strokewidth);
         }
     // color change
-        if (Line_Uvalue >1.1){
-            document.getElementById(id).setAttribute('stroke', '#ff2501');
-        } else if (Line_Uvalue > 1){
-            document.getElementById(id).setAttribute('stroke', '#a8422e');
-        } else if (Line_Uvalue > 0.9){
-            document.getElementById(id).setAttribute('stroke', '#734847');
-        } else if (Line_Uvalue > 0.75){
-            document.getElementById(id).setAttribute('stroke', '#745a5c');
-        } else if (Line_Uvalue > 0.6){
-            document.getElementById(id).setAttribute('stroke', '#877676');
+    //     if (Line_Uvalue >1.1){
+    //         document.getElementById(id).setAttribute('stroke', '#ff2501');
+    //     } else if (Line_Uvalue > 1){
+    //         document.getElementById(id).setAttribute('stroke', '#a8422e');
+    //     } else if (Line_Uvalue > 0.9){
+    //         document.getElementById(id).setAttribute('stroke', '#734847');
+    //     } else if (Line_Uvalue > 0.75){
+    //         document.getElementById(id).setAttribute('stroke', '#745a5c');
+    //     } else if (Line_Uvalue > 0.6){
+    //         document.getElementById(id).setAttribute('stroke', '#877676');
+    //     } else{
+    //         document.getElementById(id).setAttribute('stroke', '#808080');
+    //     }
+        if (Line_Uvalue < 0.2) {
+            document.getElementById(id).setAttribute('stroke', '#405c3c');
+        } else if (Line_Uvalue < 0.3) {
+            document.getElementById(id).setAttribute('stroke', '#5c774b');
+        } else if (Line_Uvalue < 0.4) {
+            document.getElementById(id).setAttribute('stroke', '#7c9b5e');
+        } else if (Line_Uvalue < 0.5) {
+            document.getElementById(id).setAttribute('stroke', '#94a245');
+        } else if (Line_Uvalue < 0.6) {
+            document.getElementById(id).setAttribute('stroke', '#d0d521');
+        } else if (Line_Uvalue < 0.7) {
+            document.getElementById(id).setAttribute('stroke', '#ebcc2a');
+        } else if (Line_Uvalue < 0.8) {
+            document.getElementById(id).setAttribute('stroke', '#f1af37');
+        } else if (Line_Uvalue < 0.9) {
+            document.getElementById(id).setAttribute('stroke', '#ef8226');
+        } else if (Line_Uvalue < 1) {
+            document.getElementById(id).setAttribute('stroke', '#f05715');
         } else{
-            document.getElementById(id).setAttribute('stroke', '#808080');
+            document.getElementById(id).setAttribute('stroke','#c10100');
         }
     }

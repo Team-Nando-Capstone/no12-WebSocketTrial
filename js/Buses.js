@@ -90,619 +90,107 @@ var P_Bus616; var Q_Bus616; var V_Bus616;
 var P_Bus624; var Q_Bus624; var V_Bus624;
 var P_Bus643; var Q_Bus643; var V_Bus643;
 
-document.getElementById('Bus5').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus5.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus5.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus5.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 5';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus14').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus14.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus14.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus14.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 14';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus15').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus15.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus15.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus15.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 15';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus21').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus21.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus21.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus21.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 21';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus26').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus26.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus26.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus26.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 26';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus28').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus28.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus28.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus28.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 28';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus30').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus30.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus30.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus30.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 30';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus37').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus37.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus37.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus37.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 37';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus45').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus45.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus45.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus45.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 45';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus58').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus58.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus58.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus58.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 58';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus75').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus75.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus75.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus75.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 75';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus81').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus81.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus81.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus81.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 81';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus93').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus93.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus93.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus93.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 93';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus100').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus100.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus100.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus100.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 100';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus104').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus104.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus104.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus104.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 104';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus115').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus115.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus115.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus115.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 115';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus117').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus117.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus117.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus117.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 117';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus126').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus126.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus126.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus126.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 126';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus132').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus132.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus132.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus132.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 132';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus134').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus134.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus134.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus134.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 134';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus139').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus139.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus139.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus139.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 139';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus153').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus153.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus153.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus153.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 153';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus160').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus160.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus160.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus160.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 160';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus170').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus170.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus170.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus170.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 170';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus180').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus180.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus180.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus180.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 180';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus182').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus182.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus182.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus182.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 182';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus212').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus212.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus212.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus212.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 212';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus227').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus227.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus227.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus227.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 227';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus228').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus228.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus228.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus228.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 228';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus229').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus229.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus229.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus229.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 229';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus235').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus235.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus235.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus235.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 235';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus237').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus237.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus237.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus237.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 237';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus238').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus238.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus238.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus238.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 238';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus247').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus247.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus247.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus247.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 247';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus248').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus248.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus248.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus248.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 248';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus261').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus261.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus261.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus261.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 261';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus265').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus265.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus265.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus265.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 265';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus282').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus282.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus282.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus282.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 282';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus290').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus290.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus290.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus290.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 290';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus291').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus291.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus291.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus291.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 291';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus293').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus293.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus293.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus293.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 293';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus320').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus320.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus320.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus320.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 320';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus323').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus323.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus323.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus323.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 323';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus327').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus327.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus327.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus327.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 327';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus334').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus334.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus334.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus334.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 334';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus340').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus340.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus340.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus340.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 340';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus345').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus345.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus345.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus345.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 345';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus352').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus352.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus352.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus352.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 352';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus359').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus359.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus359.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus359.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 359';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus361').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus361.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus361.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus361.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 361';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus372').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus372.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus372.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus372.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 372';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus400').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus400.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus400.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus400.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 400';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus405').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus405.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus405.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus405.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 405';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus427').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus427.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus427.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus427.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 427';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus433').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus433.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus433.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus433.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 433';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus436').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus436.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus436.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus436.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 436';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus439').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus439.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus439.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus439.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 439';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus441').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus441.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus441.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus441.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 441';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus444').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus444.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus444.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus444.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 444';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus471').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus471.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus471.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus471.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 471';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus479').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus479.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus479.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus479.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 479';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus484').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus484.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus484.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus484.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 484';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus492').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus492.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus492.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus492.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 492';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus499').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus499.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus499.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus499.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 499';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus501').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus501.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus501.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus501.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 501';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus505').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus505.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus505.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus505.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 505';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus506').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus506.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus506.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus506.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 506';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus510').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus510.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus510.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus510.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 510';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus511').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus511.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus511.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus511.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 511';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus517').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus517.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus517.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus517.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 517';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus518').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus518.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus518.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus518.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 518';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus529').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus529.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus529.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus529.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 529';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus530').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus530.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus530.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus530.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 530';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus531').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus531.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus531.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus531.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 531';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus538').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus538.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus538.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus538.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 538';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus540').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus540.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus540.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus540.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 540';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus552').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus552.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus552.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus552.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 552';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus554').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus554.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus554.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus554.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 554';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus568').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus568.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus568.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus568.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 568';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus574').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus574.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus574.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus574.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 574';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus579').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus579.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus579.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus579.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 579';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus587').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus587.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus587.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus587.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 587';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus588').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus588.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus588.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus588.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 588';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus600').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus600.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus600.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus600.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 600';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus607').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus607.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus607.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus607.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 607';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus616').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus616.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus616.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus616.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 616';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus624').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus624.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus624.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus624.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 624';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
-document.getElementById('Bus643').addEventListener('click', function(){
-   document.getElementById('P_value').innerHTML=P_Bus643.toFixed(2) + ' kW';
-   document.getElementById('Q_value').innerHTML=Q_Bus643.toFixed(2) + ' kVar';
-   document.getElementById('V_value').innerHTML=V_Bus643.toFixed(2) + ' p.u.';
-   document.getElementById('ElementID').innerHTML='Bus 643';
-   document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
-   });
+Bus_Click('Bus5', '5', P_Bus5, Q_Bus5, V_Bus5);
+Bus_Click('Bus14', '14', P_Bus14, Q_Bus14, V_Bus14);
+Bus_Click('Bus15', '15', P_Bus15, Q_Bus15, V_Bus15);
+Bus_Click('Bus21', '21', P_Bus21, Q_Bus21, V_Bus21);
+Bus_Click('Bus26', '26', P_Bus26, Q_Bus26, V_Bus26);
+Bus_Click('Bus28', '28', P_Bus28, Q_Bus28, V_Bus28);
+Bus_Click('Bus30', '30', P_Bus30, Q_Bus30, V_Bus30);
+Bus_Click('Bus37', '37', P_Bus37, Q_Bus37, V_Bus37);
+Bus_Click('Bus45', '45', P_Bus45, Q_Bus45, V_Bus45);
+Bus_Click('Bus58', '58', P_Bus58, Q_Bus58, V_Bus58);
+Bus_Click('Bus75', '75', P_Bus75, Q_Bus75, V_Bus75);
+Bus_Click('Bus81', '81', P_Bus81, Q_Bus81, V_Bus81);
+Bus_Click('Bus93', '93', P_Bus93, Q_Bus93, V_Bus93);
+Bus_Click('Bus100', '100', P_Bus100, Q_Bus100, V_Bus100);
+Bus_Click('Bus104', '104', P_Bus104, Q_Bus104, V_Bus104);
+Bus_Click('Bus115', '115', P_Bus115, Q_Bus115, V_Bus115);
+Bus_Click('Bus117', '117', P_Bus117, Q_Bus117, V_Bus117);
+Bus_Click('Bus126', '126', P_Bus126, Q_Bus126, V_Bus126);
+Bus_Click('Bus132', '132', P_Bus132, Q_Bus132, V_Bus132);
+Bus_Click('Bus134', '134', P_Bus134, Q_Bus134, V_Bus134);
+Bus_Click('Bus139', '139', P_Bus139, Q_Bus139, V_Bus139);
+Bus_Click('Bus153', '153', P_Bus153, Q_Bus153, V_Bus153);
+Bus_Click('Bus160', '160', P_Bus160, Q_Bus160, V_Bus160);
+Bus_Click('Bus170', '170', P_Bus170, Q_Bus170, V_Bus170);
+Bus_Click('Bus180', '180', P_Bus180, Q_Bus180, V_Bus180);
+Bus_Click('Bus182', '182', P_Bus182, Q_Bus182, V_Bus182);
+Bus_Click('Bus212', '212', P_Bus212, Q_Bus212, V_Bus212);
+Bus_Click('Bus227', '227', P_Bus227, Q_Bus227, V_Bus227);
+Bus_Click('Bus228', '228', P_Bus228, Q_Bus228, V_Bus228);
+Bus_Click('Bus229', '229', P_Bus229, Q_Bus229, V_Bus229);
+Bus_Click('Bus235', '235', P_Bus235, Q_Bus235, V_Bus235);
+Bus_Click('Bus237', '237', P_Bus237, Q_Bus237, V_Bus237);
+Bus_Click('Bus238', '238', P_Bus238, Q_Bus238, V_Bus238);
+Bus_Click('Bus247', '247', P_Bus247, Q_Bus247, V_Bus247);
+Bus_Click('Bus248', '248', P_Bus248, Q_Bus248, V_Bus248);
+Bus_Click('Bus261', '261', P_Bus261, Q_Bus261, V_Bus261);
+Bus_Click('Bus265', '265', P_Bus265, Q_Bus265, V_Bus265);
+Bus_Click('Bus282', '282', P_Bus282, Q_Bus282, V_Bus282);
+Bus_Click('Bus290', '290', P_Bus290, Q_Bus290, V_Bus290);
+Bus_Click('Bus291', '291', P_Bus291, Q_Bus291, V_Bus291);
+Bus_Click('Bus293', '293', P_Bus293, Q_Bus293, V_Bus293);
+Bus_Click('Bus320', '320', P_Bus320, Q_Bus320, V_Bus320);
+Bus_Click('Bus323', '323', P_Bus323, Q_Bus323, V_Bus323);
+Bus_Click('Bus327', '327', P_Bus327, Q_Bus327, V_Bus327);
+Bus_Click('Bus334', '334', P_Bus334, Q_Bus334, V_Bus334);
+Bus_Click('Bus340', '340', P_Bus340, Q_Bus340, V_Bus340);
+Bus_Click('Bus345', '345', P_Bus345, Q_Bus345, V_Bus345);
+Bus_Click('Bus352', '352', P_Bus352, Q_Bus352, V_Bus352);
+Bus_Click('Bus359', '359', P_Bus359, Q_Bus359, V_Bus359);
+Bus_Click('Bus361', '361', P_Bus361, Q_Bus361, V_Bus361);
+Bus_Click('Bus372', '372', P_Bus372, Q_Bus372, V_Bus372);
+Bus_Click('Bus400', '400', P_Bus400, Q_Bus400, V_Bus400);
+Bus_Click('Bus405', '405', P_Bus405, Q_Bus405, V_Bus405);
+Bus_Click('Bus427', '427', P_Bus427, Q_Bus427, V_Bus427);
+Bus_Click('Bus433', '433', P_Bus433, Q_Bus433, V_Bus433);
+Bus_Click('Bus436', '436', P_Bus436, Q_Bus436, V_Bus436);
+Bus_Click('Bus439', '439', P_Bus439, Q_Bus439, V_Bus439);
+Bus_Click('Bus441', '441', P_Bus441, Q_Bus441, V_Bus441);
+Bus_Click('Bus444', '444', P_Bus444, Q_Bus444, V_Bus444);
+Bus_Click('Bus471', '471', P_Bus471, Q_Bus471, V_Bus471);
+Bus_Click('Bus479', '479', P_Bus479, Q_Bus479, V_Bus479);
+Bus_Click('Bus484', '484', P_Bus484, Q_Bus484, V_Bus484);
+Bus_Click('Bus492', '492', P_Bus492, Q_Bus492, V_Bus492);
+Bus_Click('Bus499', '499', P_Bus499, Q_Bus499, V_Bus499);
+Bus_Click('Bus501', '501', P_Bus501, Q_Bus501, V_Bus501);
+Bus_Click('Bus505', '505', P_Bus505, Q_Bus505, V_Bus505);
+Bus_Click('Bus506', '506', P_Bus506, Q_Bus506, V_Bus506);
+Bus_Click('Bus510', '510', P_Bus510, Q_Bus510, V_Bus510);
+Bus_Click('Bus511', '511', P_Bus511, Q_Bus511, V_Bus511);
+Bus_Click('Bus517', '517', P_Bus517, Q_Bus517, V_Bus517);
+Bus_Click('Bus518', '518', P_Bus518, Q_Bus518, V_Bus518);
+Bus_Click('Bus529', '529', P_Bus529, Q_Bus529, V_Bus529);
+Bus_Click('Bus530', '530', P_Bus530, Q_Bus530, V_Bus530);
+Bus_Click('Bus531', '531', P_Bus531, Q_Bus531, V_Bus531);
+Bus_Click('Bus538', '538', P_Bus538, Q_Bus538, V_Bus538);
+Bus_Click('Bus540', '540', P_Bus540, Q_Bus540, V_Bus540);
+Bus_Click('Bus552', '552', P_Bus552, Q_Bus552, V_Bus552);
+Bus_Click('Bus554', '554', P_Bus554, Q_Bus554, V_Bus554);
+Bus_Click('Bus568', '568', P_Bus568, Q_Bus568, V_Bus568);
+Bus_Click('Bus574', '574', P_Bus574, Q_Bus574, V_Bus574);
+Bus_Click('Bus579', '579', P_Bus579, Q_Bus579, V_Bus579);
+Bus_Click('Bus587', '587', P_Bus587, Q_Bus587, V_Bus587);
+Bus_Click('Bus588', '588', P_Bus588, Q_Bus588, V_Bus588);
+Bus_Click('Bus600', '600', P_Bus600, Q_Bus600, V_Bus600);
+Bus_Click('Bus607', '607', P_Bus607, Q_Bus607, V_Bus607);
+Bus_Click('Bus616', '616', P_Bus616, Q_Bus616, V_Bus616);
+Bus_Click('Bus624', '624', P_Bus624, Q_Bus624, V_Bus624);
+Bus_Click('Bus643', '643', P_Bus643, Q_Bus643, V_Bus643);
+
+
+function Bus_Click(elementid,elementnum,P,Q,V){
+   let id = elementid.toString();
+   if(id !== undefined) {
+      document.getElementById(id).addEventListener('click', function () {
+         document.getElementById('P_value').innerHTML=parseFloat(P).toFixed(0) + ' kW';
+         document.getElementById('Q_value').innerHTML=parseFloat(Q).toFixed(2) + ' kvar';
+         document.getElementById('V_value').innerHTML=parseFloat(V).toFixed(2) + ' p.u.';
+         document.getElementById('ElementID').innerHTML='Bus '+ elementnum;
+         document.getElementById('SwitchableU_V').innerHTML = 'Voltage';
+         flag = id;
+         ElementType = "Bus";
+      });
+   }
+}
